@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="childSpringcloud" />
+        <module name="config-server" />
         <module name="product-data-service" />
         <module name="product-view-service-feign" />
         <module name="product-view-service-ribbon" />
@@ -30,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="childSpringcloud" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="parentMavenProject" target="1.8" />
       <module name="product-data-service" target="1.8" />
       <module name="product-view-service-feign" target="1.8" />
