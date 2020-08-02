@@ -7,6 +7,17 @@ spring:
     suffix: .html
     encoding: UTF-8
     content-type: text/html
-    mode: HTML5       
+    mode: HTML5
   zipkin:
-    base-url: http://localhost:9411   
+    base-url: http://localhost:9411
+
+feign.hystrix.enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
